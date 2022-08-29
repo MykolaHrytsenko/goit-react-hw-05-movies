@@ -1,0 +1,27 @@
+.title {
+  color: rgb(84, 12, 185);
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+.link {
+  width: 200px;
+  padding: 0;
+}
+
+.img {
+  width: 200px;
+  height: 315px;
+}
+.movie_title {
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(84, 12, 185);
+}
