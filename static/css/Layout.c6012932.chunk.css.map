@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/Layout.c6012932.chunk.css","mappings":"AAAA,sBAGE,wBAAmC,CAFnC,YAAa,CACb,iBAEF","sources":["components/Header/Header.module.css"],"sourcesContent":[".header {\n  display: flex;\n  text-align: center;\n  background-color: rgb(50, 223, 116);\n}\n"],"names":[],"sourceRoot":""}

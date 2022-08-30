@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/reviews.ccf326cf.chunk.css","mappings":"AAAA,qBACE,oBAAqB,CAErB,QAAS,CADT,SAEF,CACA,uBACE,aACF","sources":["components/pages/Reviews/Reviews.module.css"],"sourcesContent":[".list{\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n.author{\n  color: rgb(84, 12, 185);\n}"],"names":[],"sourceRoot":""}
