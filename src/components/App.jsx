@@ -1,32 +1,14 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-const Layout = lazy(() =>
-  import('./pages/Layout/Layout' /* webpackChunkName: "Layout" */)
-);
-const NotFoundView = lazy(() =>
-  import(
-    './pages/NotFoundView/NotFoundView' /* webpackChunkName: "not-found-view" */
-  )
-);
-const Home = lazy(() =>
-  import('./pages/Home/Home' /* webpackChunkName: "home" */)
-);
-const Movies = lazy(() =>
-  import('./pages/Movies/Movies' /* webpackChunkName: "movies" */)
-);
-const MovieDetails = lazy(() =>
-  import(
-    './pages/MovieDetails/MovieDetails' /* webpackChunkName: "movie-details" */
-  )
-);
-const Cast = lazy(() =>
-  import('./pages/Cast/Cast' /* webpackChunkName: "cast" */)
-);
+const Layout = lazy(() => import('../pages/Layout/Layout'));
+const NotFoundView = lazy(() => import('../pages/NotFoundView/NotFoundView'));
+const Home = lazy(() => import('../pages/Home/Home'));
+const Movies = lazy(() => import('../pages/Movies/Movies'));
+const MovieDetails = lazy(() => import('../pages/MovieDetails/MovieDetails'));
+const Cast = lazy(() => import('../pages/Cast/Cast'));
 
-const Reviews = lazy(() =>
-  import('./pages/Reviews/Reviews' /* webpackChunkName: "reviews" */)
-);
+const Reviews = lazy(() => import('../pages/Reviews/Reviews'));
 
 export default function App() {
   return (

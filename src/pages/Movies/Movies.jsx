@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink, useSearchParams, useLocation } from 'react-router-dom';
 import style from './Movies.module.css';
 
-import * as moviesApi from '../../../services/moviesApi';
+import * as moviesApi from '../../services/moviesApi';
 import SearchForm from 'components/SearchForm/SearchForm';
 
 function SearchMovies() {

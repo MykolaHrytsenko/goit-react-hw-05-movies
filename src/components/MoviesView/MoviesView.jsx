@@ -6,7 +6,6 @@ import style from './MoviesView.module.css';
 function MoviesView() {
   const location = useLocation();
   const [movies, setMovies] = useState([]);
-  // console.log(movies);
 
   useEffect(() => {
     moviesApi.getTrending().then(res => {

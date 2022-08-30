@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom';
-import * as moviesApi from '../../../services/moviesApi';
+import * as moviesApi from '../../services/moviesApi';
 
 import style from './MovieDetails.module.css';
 

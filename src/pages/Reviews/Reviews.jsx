@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import * as moviesApi from '../../../services/moviesApi';
+import * as moviesApi from '../../services/moviesApi';
 import style from './Reviews.module.css';
 
 function Reviews() {

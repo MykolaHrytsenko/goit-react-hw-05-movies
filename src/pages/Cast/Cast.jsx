@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import * as moviesApi from '../../../services/moviesApi';
+import * as moviesApi from '../../services/moviesApi';
 import style from './Cast.module.css';
 
 function Cast() {
